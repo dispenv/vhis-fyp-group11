@@ -374,7 +374,7 @@ elif menu in ["📱 參與問卷與 QR Code", "📱 Survey & QR Code"]:
             <h4>📱 Scan QR Code</h4>
             <p style="font-size: 0.85rem; color: #64748b;">Scan the QR code with your mobile camera:</p>
             """, unsafe_allow_html=True)
-            app_url = "https://share.streamlit.io/"
+            app_url = "https://docs.google.com/forms/d/e/1FAIpQLSdFmp3cX8hKWT5GvhRTN-i7s_2ZM3UJv_lHaBG2c8cSfqNMUw/viewform?usp=header"
             qr_api_url = f"https://api.qrserver.com/v1/create-qr-code/?size=180x180&data={app_url}"
             st.image(qr_api_url, width=180)
             st.markdown("</div>", unsafe_allow_html=True)
